@@ -1,0 +1,5 @@
+---Exercicios aula 02---
+--Tuplas e listas--
+1- Crie uma tupla com os dias da semana e descubra a resposta para a pergunta, se amanha é sabado que dia foi ontem? Mostre ao usuario alternativas e quando ele acertar imprima "Parabens" e encerre o programa.
+
+2- Faça um programa que leia  X valores e guarde em uma lista. Mostre na saida o menor e o maior valor armazenado na lista 

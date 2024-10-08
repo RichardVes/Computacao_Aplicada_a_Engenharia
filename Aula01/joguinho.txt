@@ -1,0 +1,11 @@
+from random import randint
+resp = randint(1,100)
+x = int(input("Digite um valor entre 1 e 100: "))
+while x != resp:
+  if x < resp:
+    print("Valor é maior")
+  elif x > resp:
+   print("O valor é menor")
+  x = int(input("Digite um valor entre 1 e 100: "))
+
+print("Acertou MIzeravi")

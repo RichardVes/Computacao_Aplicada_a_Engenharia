@@ -1,0 +1,17 @@
+---Exercicios aula 03---
+1- Criação de um Menu Interativo:
+Crie um programa que apresente um menu com as seguintes opções:
+    Adicionar um item a uma lista de compras
+    Remover um item da lista de compras
+    Mostrar a lista de compras completa
+    Sair do programa
+
+2-Criação de uma Lista de Números Pares:
+Crie um programa que gere uma lista com os primeiros 20 números pares. Utilize o laço for, a função range(), e a operação módulo (%) para verificar se um número é par.
+
+3- Ordenação de uma Lista (Bolha):
+Implemente o algoritmo de ordenação bolha para ordenar uma lista de números em ordem crescente. Utilize laços for aninhados e as operações de comparação e troca de elementos.
+
+4- Simulador de Caixa Eletrônico
+Crie um programa que simule um caixa eletrônico. O usuário deverá informar o valor a ser sacado e o programa deverá mostrar quantas notas de cada valor serão entregues. Considere as notas de R$100, R$50, R$20 e R$10. Utilize divisões inteiras e o operador módulo (%) para resolver este problema.
+

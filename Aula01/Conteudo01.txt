@@ -1,0 +1,39 @@
+---Conteudo---
+-Bibliotecas-
+  --Biblioteca OS--
+   ex: 
+   import os
+  ---comandos---
+  ----os.system('clear')
+   --Biblioteca Random--
+     from random import randint
+     ex:
+     var =randint(x,y)
+     x= inicio
+     y=fim
+
+-Variaveis e seus tipos (int, float, string);
+  -Operadores aritimeticos, logico e comparativos;
+  -Operadores de entrada e saida
+    Entrada, input()
+    Saida, print()
+  -Estrutura de repeticao
+  if, elif e else
+  -Estrutura padrão do if
+  if(condição1):
+    parametro1
+  elif(condição2):
+    parametro2
+  else:
+    parametro3
+
+  for x in range (0,10)
+    executa 10 vezes o codigo
+
+  for x in range (0,10,2)
+    executa o for pulando de 2 em 2 0,2,4,6,8
+
+  -while
+    while(condição):
+      Se verdadeiro, parametro1
+    se falso, segue o programa

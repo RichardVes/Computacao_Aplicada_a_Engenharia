@@ -1,0 +1,44 @@
+-Bibliotecas-
+--Biblioteca OS--
+--Biblioteca Random--
+
+-Operadores-
+print()
+input()
+if,elif e else
+for
+while
+enumerate
+break
+
+-Lista=() e Tupla=[]-
+--Comandos--
+.append
+.insert
+.pop ou .del
+.remove
+.split()
+len(var)
+---Copiando a lista do jeito certo---
+a=[]
+b=a[:]
+
+-Formatação da saida do print-
+print('-'*4)
+--Formatação basica--
+print("texto",var,"texto",var2) 
+-OU-
+print("texto{} texto{}".format(var,var2))
+-OU-
+print(f"texto{var} texto{var2}")
+
+--Formatação de Números--   
+print(f'Valor: {var:.2f}')
+print(f'Valor: {var:.1%}')
+
+--Largura de Campo--
+print(f'texto{var:valor}')
+
+--Alinhamento--
+print(f'|{texto:<10}|{texto:^10}|{texto:>10}|')
+

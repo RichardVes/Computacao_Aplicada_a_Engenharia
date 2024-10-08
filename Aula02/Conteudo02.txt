@@ -1,0 +1,37 @@
+-Conteudo Aula 2---
+--Lista e tupla
+tupla=()
+lista=[]
+-Comandos 
+var.append("valor") 
+  adiciona o valor ao final da lista var
+var.insert(X,"valor") ou var[X]=valor
+  adiciona o valor a posição X da lista
+var.pop()
+  apaga o valor da lista var na ultima posição
+var.pop(X) ou del var[X]
+  apaga o valor da lista na posição X
+  ex = del lista[0]
+var.remove("X")
+  remove o elemento X independente de sua posição na lista.  
+lista.split()
+quebra a lista em palavras
+
+x=len(var)
+  retorma o tamanho da lista
+
+--enumerate--
+var=["a","b","c"]
+for chave,valor in enumerate(var):
+  chave = posição  de 0 até o fim
+  valor = valor armazenado na posição (chave)
+  var = nome da lista
+
+--copiando lista--
+errado 
+  a =[]
+  b=a 
+certo 
+  a =[]
+  b=a[:]
+

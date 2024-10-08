@@ -1,0 +1,16 @@
+---Exercicios---
+--for e while--
+
+1- Escreva um programa que utilize um loop for para imprimir os números de 1 a 20, um em cada linha.
+
+2- Escreva um programa que use um loop while para somar todos os números pares entre dois valores que o usuario digitar e exiba o resultado.
+
+3- Escreva um programa que solicite ao usuário um número inteiro positivo e calcule o fatorial desse número usando um loop for.
+
+4- Crie um jogo de adivinhação onde o computador escolhe um número aleatório entre 1 e 100, e o usuário tem que adivinhar. O programa deve dar dicas ("maior" ou "menor") e continuar até que o usuário acerte. Use um loop while para continuar o jogo até que o número seja adivinhado.
+dica{from random import randint
+resp = randint(1,100)}
+
+5- escreva um programa que mostre se o valor é negativo, positivo ou zero. Usando somente if, elif e else.
+
+Desafio - Escreva um programa que gere os primeiros 10 números da sequência de Fibonacci usando um loop for. A sequência de Fibonacci começa com 0 e 1, e cada número subsequente é a soma dos dois anteriores.

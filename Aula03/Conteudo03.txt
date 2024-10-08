@@ -1,0 +1,29 @@
+-Formatação da saida do print-
+--Formatação basica--
+print('-'*4)
+print('-',end='')
+
+
+ex:
+nome= "Ana"  
+idade=30
+print("Seu nome é:",nome,"\nSua idade é:",idade) 
+-OU-
+print("Seu nome é:{}\nSua idade é:{}".format(nome,idade))
+-OU-
+print(f"Seu nome é:{nome}\nSua idade é:{idade}")
+
+--Formatação de Números--   
+var = 3.141592653589793
+print(f'Valor: {var:.2f}')
+var=0.25433563
+print(f'Valor: {var:.1%}')
+
+--Largura de Campo--
+numero = 123
+print(f'Número com largura de 10: |{numero:10}|')
+
+--Alinhamento--
+texto = "Python"
+print(f'|{texto:<10}|{texto:^10}|{texto:>10}|')
+
