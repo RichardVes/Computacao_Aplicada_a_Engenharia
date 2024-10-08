@@ -22,6 +22,52 @@ vetor[i]=vetor[i]\*2
 print(f'{vetor}')
 ```
 
+### Comandos do Vetor
+
+```
+vetor=[]
+```
+
+### adicionar item
+
+```
+vetor.append("item")
+```
+
+### Ordena o vetor
+
+```
+vetor.sort()
+```
+
+### Remove o item do vetor
+
+```
+vetor.pop(posição)
+variavel=vetor.pop(posição)
+```
+
+### Inserir elemento
+
+```
+vetor.insert(posição,"item")
+```
+
+### Contagem de ocorrencia
+
+```
+vetor.count("item")
+variavel=vetor.count("item")
+```
+
+### Limpando Vetor
+
+```
+vetor.clear()
+```
+
+---
+
 # ROTINAS
 
 ## função
@@ -48,9 +94,9 @@ print(parametro2)
 print('-='*parametro)
 ```
 
-# -----DOCSTRINGS------
+# DOCSTRINGS
 
-_se usa comando help(função), para mostrar a documentação da função;_
+**Se usa comando help(função), para mostrar a documentação da função;**
 
 ```
 def nome():
