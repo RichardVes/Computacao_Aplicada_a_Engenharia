@@ -4,7 +4,7 @@ total=0
 condicao=False
 # for contador in range(1,5):
 while condicao!= True:
-  saida=str(input(f'Vocẽ quer adicionar mais um numero?: [S/N]'))
+  saida=str(input(f'Vocẽ quer adicionar mais um numero?: [S/N]')).upper()
   if saida in 'Ss':
     num=(int(input('Digite um valor Inteiro: ')))
     total+=num

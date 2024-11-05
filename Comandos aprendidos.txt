@@ -42,3 +42,7 @@ print(f'texto{var:valor}')
 --Alinhamento--
 print(f'|{texto:<10}|{texto:^10}|{texto:>10}|')
 
+-- função  -- 
+def 
+ 
+-- vetor e matriz --
