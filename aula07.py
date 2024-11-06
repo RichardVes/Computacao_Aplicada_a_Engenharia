@@ -1,3 +1,10 @@
+for i in range(0,3):
+    for j in range(0,3):
+        
+        print("valor do i = ",i)
+        print("valor do j = ",j)
+
+
 def vetor(x,y,z):
     vetor =[ x, y, z ]
     return vetor
@@ -17,3 +24,4 @@ def mostra_matriz(matriz):
 print(vetor(0,1,2))
 matriz=cria_matriz()
 mostra_matriz(matriz)
+    
